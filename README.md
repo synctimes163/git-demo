@@ -53,3 +53,20 @@ cat ~/.ssh/id_rsa.pub
 以下为显示的密钥（示例）：
 
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDxi0FE/QMSjVSLKmHC0gNkVqjt59LdTkL1+18yii8d8e2vw0RulPnwE3mZHrSaedv4uig6QYw4hZFmAssrX239nmHG6YgeTrIH+hGBBe2K88wNfeiEhpwj9FPh1laXKEsY8MW4IF1zYJmKdLrYIc/tbve/Ft1MwGYLB0Y/jjv6l+ZBWf2TocmbnozVfl42CfzN0niRRsBMOw+gVW0Qh6Ak/HuJbGmAevinl062/UR6tDHpakee46rldL8R5P63BMRhg7RVdt your_email@example.com
+
+
+示例调试命令：
+git clone git@github.com:synctimes163/git-demo.git
+
+cd git-demo
+
+
+git bransh 查看主分支
+
+git status  常看状态
+ 
+git diff 对比修改
+
+git log 提交记录
+
+git show  fed8be7ee6d71b76e920b1ec058ce780ee6fe992 当前提交内容 commit fed8be7ee6d71b76e920b1ec058ce780ee6fe992 (HEAD -> main, origin/main, origin/HEAD)
