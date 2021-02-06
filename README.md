@@ -72,3 +72,5 @@ git log 提交记录
 git show  fed8be7ee6d71b76e920b1ec058ce780ee6fe992 当前提交内容 commit fed8be7ee6d71b76e920b1ec058ce780ee6fe992 (HEAD -> main, origin/main, origin/HEAD)
 
 <!-- gengxin -->
+
+git merge “合并分支名称"
