@@ -78,3 +78,25 @@ git show  fed8be7ee6d71b76e920b1ec058ce780ee6fe992 当前提交内容 commit fed
  git checkout -b feature-login  
 
  git branch
+ 
+git checkout master   
+git branch
+  feature-login
+  main
+* master
+
+
+ git push origin master
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 490 bytes | 490.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+remote:
+remote: Create a pull request for 'master' on GitHub by visiting:
+remote:      https://github.com/synctimes163/git-demo/pull/new/master
+remote:
+To github.com:synctimes163/git-demo.git
+ * [new branch]      master -> master
